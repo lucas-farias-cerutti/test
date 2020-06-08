@@ -2,10 +2,6 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-
-yes | sdkmanager --licenses || exit 0
-yes | sdkmanager --update || exit 0
-
 defaults: &defaults
   working_directory: ~/APPlugin
   docker:
